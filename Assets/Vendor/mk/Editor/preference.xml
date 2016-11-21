@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SkyBoxPreference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <apiKey />
+  <skyBoxName>Tiananmen Square</skyBoxName>
+  <directory>Assets/StreetViewSkyboxes</directory>
+  <latitude>39.9105</latitude>
+  <longitude>116.3907</longitude>
+  <imgSize>640</imgSize>
+</SkyBoxPreference>
