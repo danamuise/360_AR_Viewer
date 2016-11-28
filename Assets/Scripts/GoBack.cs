@@ -29,4 +29,7 @@ public class GoBack : MonoBehaviour {
 	public void goToBeijing02(){
 		SceneManager.LoadScene ("Image01_Tiananmen", LoadSceneMode.Single);
 	}
+	public void goBackHome(){
+		SceneManager.LoadScene ("Intro", LoadSceneMode.Single);
+	}
 }
