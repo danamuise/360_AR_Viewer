@@ -1,14 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.UI;
 public class GoBack : MonoBehaviour {
+	
+	public Button button;
+	public GameObject panel;
 
 	// Use this for initialization
 	void Start () {
 	
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 	
@@ -32,4 +35,9 @@ public class GoBack : MonoBehaviour {
 	public void goBackHome(){
 		SceneManager.LoadScene ("Intro", LoadSceneMode.Single);
 	}
+
+	public void closePanel(){
+		panel.SetActive (false);
+	}
+
 }
