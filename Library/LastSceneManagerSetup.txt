@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Map_Chinatown.unity
+- path: Assets/AR_chinatown.unity
   isLoaded: 1
   isActive: 1
